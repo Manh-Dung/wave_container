@@ -1,7 +1,8 @@
 name: wave_container
 description: "A new Flutter project for wave container."
 version: 0.0.1
-homepage:
+homepage: https://github.com/Manh-Dung/wave_container
+repository: https://github.com/Manh-Dung/wave_container
 
 environment:
   sdk: ^3.5.3
