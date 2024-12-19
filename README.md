@@ -27,6 +27,14 @@ dependencies:
 
 ## Usage
 
+## Demo
+
+### Interactive Wave
+
+![Interactive Wave](screenshots/demo.gif)
+
+<img src="screenshots/demo.gif" width="800" alt=""/>
+
 ### Basic Usage
 
 ```dart
@@ -96,22 +104,22 @@ import 'package:wave_container/wave_container.dart';
 
 ### Required Properties
 
-| Property | Type | Description |
-|----------|------|-------------|
-| `height` | `double` | Total height of the container |
-| `waterPercentage` | `double` | Fill level (0.0 to 1.0) |
+| Property          | Type     | Description                   |
+|-------------------|----------|-------------------------------|
+| `height`          | `double` | Total height of the container |
+| `waterPercentage` | `double` | Fill level (0.0 to 1.0)       |
 
 ### Optional Properties
 
-| Property | Type | Default | Description |
-|----------|------|---------|-------------|
-| `backgroundColor` | `Color` | `Colors.white` | Container background color |
-| `solidColor` | `Color` | `Colors.blue` | Wave color when using solid color |
-| `waveColorType` | `WaveColorType` | `WaveColorType.solid` | Type of coloring effect |
-| `waveShape` | `WaveShape` | `WaveShape.sine` | Wave pattern type |
-| `waveHeight` | `double` | `0.2` | Height of wave peaks (0.0 to 1.0) |
-| `waveFrequency` | `double` | `4.0` | Number of wave cycles |
-| `waveSpeed` | `double` | `1.0` | Wave animation speed |
+| Property          | Type            | Default               | Description                       |
+|-------------------|-----------------|-----------------------|-----------------------------------|
+| `backgroundColor` | `Color`         | `Colors.white`        | Container background color        |
+| `solidColor`      | `Color`         | `Colors.blue`         | Wave color when using solid color |
+| `waveColorType`   | `WaveColorType` | `WaveColorType.solid` | Type of coloring effect           |
+| `waveShape`       | `WaveShape`     | `WaveShape.sine`      | Wave pattern type                 |
+| `waveHeight`      | `double`        | `0.2`                 | Height of wave peaks (0.0 to 1.0) |
+| `waveFrequency`   | `double`        | `4.0`                 | Number of wave cycles             |
+| `waveSpeed`       | `double`        | `1.0`                 | Wave animation speed              |
 
 ## Wave Types
 
@@ -128,16 +136,21 @@ The widget supports different types of waves through the `waveShape` property:
 ## Coloring Options
 
 ### Solid Color
+
 Simple single color wave.
 
 ### Gradient
+
 Smooth transition between multiple colors with options for:
+
 - Vertical gradient
 - Horizontal gradient
 - Diagonal gradient
 
 ### Shimmer
+
 Animated shimmering effect with customizable:
+
 - Base color
 - Highlight color
 - Animation speed
@@ -150,18 +163,23 @@ Check out the [example](example) folder for complete sample app showcasing all f
 <summary>View Examples</summary>
 
 ### Basic Example
+
 [View Code](example/lib/screens/examples/basic_example.dart)
 
 ### Gradient Example
+
 [View Code](example/lib/screens/examples/gradient_example.dart)
 
 ### Shimmer Example
+
 [View Code](example/lib/screens/examples/shimmer_example.dart)
 
 ### Wave Shapes Example
+
 [View Code](example/lib/screens/examples/wave_shapes_example.dart)
 
 ### Interactive Example
+
 [View Code](example/lib/screens/examples/interactive_example.dart)
 
 </details>
