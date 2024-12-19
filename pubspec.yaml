@@ -1,5 +1,5 @@
 name: wave_container
-description: A highly customizable Flutter widget for creating fluid wave animations. Support multiple wave patterns, gradient colors, shimmer effects, and interactive animations. Perfect for progress indicators, loading screens, or creative UI elements.
+description: Create beautiful wave animations in Flutter with customizable patterns, colors, and effects.
 version: 0.0.1
 homepage: https://github.com/Manh-Dung/wave_container
 repository: https://github.com/Manh-Dung/wave_container
